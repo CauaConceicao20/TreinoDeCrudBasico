@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class ConnectionFactory {
 
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "21A06b0@";
+	private static final String PASSWORD = "********";
 	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/agenda";
 	
 	public static Connection creatConnectionToMysql() throws Exception {
